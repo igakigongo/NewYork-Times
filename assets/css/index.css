@@ -1,5 +1,5 @@
 body {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: "Times New Roman";
 }
 
 nav ul{
@@ -17,6 +17,7 @@ nav ul{
 	position: -webkit-sticky;
 	top: 0;
 }
+
 li:nth-child(-n+3){
 	margin-left: 20px;
 }
@@ -44,4 +45,26 @@ li:nth-child(4){
 
 .capitalize {
 	text-transform: uppercase;
+}
+
+.main {
+	margin: 0 auto;
+	width: 60%;
+}
+
+.main .title {
+	font-size: 2em;
+	font-style: italic;
+	font-weight: 700;
+	line-height: 40px;
+	padding: 15px;
+	text-align: center;
+}
+
+.main figcaption {
+	color: #666;
+}
+
+.main .credit {
+	color: #888;
 }

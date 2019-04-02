@@ -179,3 +179,21 @@ aside .picks-title {
 .text-bold {
 	font-weight: bold;
 }
+section{
+	display: flex;
+	flex-direction: row;
+}
+.image-grids{
+	display: flex;
+	flex-direction: column;
+}
+.grid{
+	display: flex;
+	flex-direction: row;
+}
+.grid div{
+	width: 33%;
+}
+.grid img{
+	width: 100%;
+}

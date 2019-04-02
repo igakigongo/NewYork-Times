@@ -5,6 +5,11 @@ html {
 body {
 		font-family: 'Libre Franklin', sans-serif;
 }
+header{
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
 
 .header-navigation {
 	background-color: #fff;
@@ -16,9 +21,6 @@ body {
 	height: 50px;
 	line-height: 19px;
 	padding: 0 100px;
-	position: sticky;
-	position: -webkit-sticky;
-	top: 0;
 }
 
 .header-navigation li:nth-child(-n+3){
@@ -58,6 +60,9 @@ body {
 .main {
 	margin: 0 auto;
 	width: 70%;
+	z-index: 0;
+	position: relative;
+	top: 50px;
 }
 
 .main .title {

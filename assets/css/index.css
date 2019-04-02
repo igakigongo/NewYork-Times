@@ -87,9 +87,10 @@ header{
 	}
 }
 
-.main .credit {
+.credit {
 	color: #888;
 }
+
 
 .social-icons{
 	display:flex;

@@ -179,21 +179,56 @@ aside .picks-title {
 .text-bold {
 	font-weight: bold;
 }
-section{
+
+section {
 	display: flex;
 	flex-direction: row;
 }
-.image-grids{
+
+/* Image Grids Section */
+.image-grids {
+	width: 70%;
+}
+
+.image-grids, .links {
+	border-top: 1px solid #000;
 	display: flex;
 	flex-direction: column;
+	padding-top: 1rem;
 }
-.grid{
+
+.grid {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 }
-.grid div{
-	width: 33%;
+
+.grid figure {
+	width: 32%;
 }
-.grid img{
+
+.grid figure img {
 	width: 100%;
+}
+
+.grid figcaption span {
+	display: block;
+}
+
+.grid .category, .grid .date {
+	font-size: .6rem;
+}
+
+.grid .category {
+	text-align: right;
+}
+
+.grid .caption-title {
+	color: #000;
+}
+
+/* Links Sub-Section: Besides Image Grids Section */
+div.links {
+	margin-left: 15px;
+	width: 30%;
 }

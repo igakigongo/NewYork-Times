@@ -11,11 +11,11 @@ header {
 	width: 100%;
 }
 
-header img{
-	
-	height: 100%;
+header img {
 	display:block;
+	height: 60%;
 }
+
 .header-navigation {
 	background-color: #fff;
 	box-shadow: 0 1px 1px #ededed;
@@ -37,7 +37,9 @@ header img{
 }
 
 .header-navigation li:nth-child(4) {
+	align-items: center;
 	margin: 0 auto;
+	display: flex;
 	height: 100%;
 }
 
@@ -340,6 +342,12 @@ div.links {
 	font-weight: bolder;
 }
 
+.links-group li i {
+	hegith: 16px;
+	width: 16px;
+	padding-right: 10px;
+}
+
 .links-group li small {
 	font-size: smaller;
 }
@@ -352,21 +360,42 @@ div.links {
 	border-left: 1px solid #E6E6E6;
 	padding-left: 1rem;
 }
-.footer-role{
+
+.footer .logo-container {
+	height: 30px;
+	padding-top: 10px;
+}
+
+.logo-container a, .logo-container a:hover, .logo-container a:active {
+	font-size: smaller;
+	text-decoration: none;
+}
+
+.footer .logo {
+	height: 80%;
+}
+
+.footer-role {
 	margin-bottom: 20px;
 }
-.footer-role ul{
+
+.footer-role ul {
+	color: #666;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
 }
-.footer-role ul li{
+
+.footer-role ul li {
 	font-size: .68rem;
+	padding: 0 10px;
 }
-.footer-role nav{
-	padding-top: 9px;
-    border-top: 1px solid rgb(235, 235, 235)
+
+.footer-role nav {
+	border-top: 1px solid rgb(235, 235, 235);
+	padding-top: 15px;
 }
+
 .pull-right{
 	font-size: .7rem;
 }

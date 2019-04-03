@@ -11,6 +11,11 @@ header {
 	width: 100%;
 }
 
+header img{
+	
+	height: 100%;
+	display:block;
+}
 .header-navigation {
 	background-color: #fff;
 	box-shadow: 0 1px 1px #ededed;
@@ -33,6 +38,7 @@ header {
 
 .header-navigation li:nth-child(4) {
 	margin: 0 auto;
+	height: 100%;
 }
 
 .btn {
@@ -314,6 +320,7 @@ div.links {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-bottom: 30px;
 }
 
 .links-group {
@@ -344,4 +351,22 @@ div.links {
 .links-group:last-child {
 	border-left: 1px solid #E6E6E6;
 	padding-left: 1rem;
+}
+.footer-role{
+	margin-bottom: 20px;
+}
+.footer-role ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.footer-role ul li{
+	font-size: .68rem;
+}
+.footer-role nav{
+	padding-top: 9px;
+    border-top: 1px solid rgb(235, 235, 235)
+}
+.pull-right{
+	font-size: .7rem;
 }

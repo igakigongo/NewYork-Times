@@ -5,7 +5,7 @@ html {
 body {
 		font-family: 'Libre Franklin', sans-serif;
 }
-header{
+header {
 	position: fixed;
 	z-index: 1;
 	width: 100%;
@@ -23,15 +23,15 @@ header{
 	padding: 0 100px;
 }
 
-.header-navigation li:nth-child(-n+3){
+.header-navigation li:nth-child(-n+3) {
 	margin-left: 20px;
 }
 
-.header-navigation li:nth-child(n+5){
+.header-navigation li:nth-child(n+5) {
 	margin-right: 20px;
 }
 
-.header-navigation li:nth-child(4){
+.header-navigation li:nth-child(4) {
 	margin: 0 auto;
 }
 
@@ -61,6 +61,7 @@ header{
 	margin: 0 auto;
 	width: 70%;
 	z-index: 0;
+	margin-bottom: 2px;
 	position: relative;
 	top: 50px;
 }
@@ -91,7 +92,6 @@ header{
 	color: #888;
 }
 
-
 .social-icons{
 	display:flex;
 	flex-direction: row;
@@ -108,36 +108,37 @@ header{
 	text-align: center;
 	background-color: #e6e6e6;
 }
-.social-icons i:hover{
+
+.social-icons i:hover {
 	background-color: #fff;
 	cursor: pointer;
 }
 
-
-.social-icons li:nth-child(2){
+.social-icons li:nth-child(2) {
 	margin-left: auto;
 }
 
-.SB{
+.SB {
 	display: flex;
 	flex-direction: row;
 	justify-content:center;
 	align-items: center;
 	height: 100px;
 	margin:50px;
-	
 }
-button.comments{
+
+button.comments {
 	width: 400px;
 	height:30px;
 }
 
-ul.social-icons-bottom{
+ul.social-icons-bottom {
 	margin-left: 80px;
 	display: flex;
 	flex-direction: row;
 }
-ul.social-icons-bottom i{
+
+ul.social-icons-bottom i {
 	margin-right: 10px;
 	border-radius: 50%;
 	border: 2px solid #f2f2f2;
@@ -146,7 +147,15 @@ ul.social-icons-bottom i{
 	padding: 6px;
 	text-align: center;
 	background-color: #e6e6e6;
+}
 
+.pull-right {
+	float: right;
+	margin-left: auto;
+}
+
+.w-100 {
+	width: 100%;
 }
 
 /* Article Content Section */
@@ -179,16 +188,18 @@ p.author{
 	align-items: center;
 }
 
-.aside-content{
+.aside-content {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
 }
+
 .aside-content .img-div {
 	margin: 0 10px 10px 0;
 	width: 30%;
 }
-.aside-content img{
+
+.aside-content img {
 	display:block;
 	height: auto;
 	width: 100%;
@@ -279,4 +290,15 @@ div.links {
     color: rgb(18, 18, 18);
     font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
     font-size: 1.125rem;
+}
+
+/* Footer */
+.before-footer {
+	border-bottom: 2px solid #E6E6E6;
+	padding-bottom: 50px;
+}
+
+.footer {
+	border-top: 1px solid #E6E6E6;
+	margin-top: 2px;
 }

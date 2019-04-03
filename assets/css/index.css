@@ -154,6 +154,12 @@ ul.social-icons-bottom i {
 	margin-left: auto;
 }
 
+/* margin top-bottom : (1-5) => (20% - 100%)*/
+.mtb-1 {
+	/*padding: 1rem 0;*/
+	line-height: 1.6;
+}
+
 .w-100 {
 	width: 100%;
 }
@@ -274,16 +280,16 @@ div.links {
 	margin-left: 40px;
 	width: 30%;
 }
-.links ul{
+.links ul {
 	margin-top: 1px;
 	border-top: 1px solid rgb(226, 226, 226);
 	list-style: none;
 }
-.links ul li{
+.links ul li {
 	border-bottom: 1px solid rgb(226, 226, 226);
 	padding: 15px 0px;
 }
-.links ul li a{
+.links ul li a {
 	text-decoration: none;
 	font-size: 1.1875rem;
     line-height: 1.4375rem;
@@ -300,5 +306,42 @@ div.links {
 
 .footer {
 	border-top: 1px solid #E6E6E6;
+	flex-direction: column;
 	margin-top: 2px;
+}
+
+.links-grid {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.links-group {
+	font-size: 80%;
+}
+
+.links-group .heading {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.links-group li {
+	margin: 8px 0;
+}
+
+.links-group li b {
+	font-weight: bolder;
+}
+
+.links-group li small {
+	font-size: smaller;
+}
+
+.links-group li.spacer {
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.links-group:last-child {
+	border-left: 1px solid #E6E6E6;
+	padding-left: 1rem;
 }

@@ -5,10 +5,11 @@ html {
 body {
 		font-family: 'Libre Franklin', sans-serif;
 }
+
 header {
 	position: fixed;
-	z-index: 1;
 	width: 100%;
+	z-index: 1;
 }
 
 header img {
@@ -17,12 +18,12 @@ header img {
 }
 
 .header-navigation {
+	align-items: center;
 	background-color: #fff;
 	box-shadow: 0 1px 1px #ededed;
 	display: flex;
 	flex-direction: row;
 	font-weight: 700;
-	align-items: center;
 	height: 50px;
 	line-height: 19px;
 	padding: 0 100px;
@@ -38,9 +39,9 @@ header img {
 
 .header-navigation li:nth-child(4) {
 	align-items: center;
-	margin: 0 auto;
 	display: flex;
 	height: 100%;
+	margin: 0 auto;
 }
 
 .btn {
@@ -67,11 +68,11 @@ header img {
 
 .main {
 	margin: 0 auto;
-	width: 70%;
-	z-index: 0;
 	margin-bottom: 2px;
 	position: relative;
 	top: 50px;
+	width: 70%;
+	z-index: 0;
 }
 
 .main .title {
@@ -107,14 +108,17 @@ header img {
 }
 
 .social-icons i {
+	background-color: #e6e6e6;
 	margin-right: 10px;
 	border-radius: 50%;
 	border: 2px solid #f2f2f2;
-	width: 16px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 	height: 16px;
 	padding: 6px;
 	text-align: center;
-	background-color: #e6e6e6;
+	width: 16px;
 }
 
 .social-icons i:hover {

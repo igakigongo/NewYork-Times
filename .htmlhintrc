@@ -9,7 +9,7 @@
   "empty-tag-not-self-closed": true,
   "spec-char-escape": true,
   "id-unique": true,
-  "indent-size": 1,
+  "indent-size": 2,
   "src-not-empty": true,
   "title-require": true,
   "alt-require": true,
